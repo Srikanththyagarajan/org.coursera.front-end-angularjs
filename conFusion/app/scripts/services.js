@@ -21,9 +21,9 @@ angular.module('confusionApp')
             return $resource(baseURL+"dishes/:id",null,  {'update':{method:'PUT' }});
         };
 
-            this.getPromotion = function(index) {
-              return promotions[index];
-            }
+        this.getPromotion = function(index) {
+          return promotions[index];
+        };
                         
     }])
 
