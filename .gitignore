@@ -4,3 +4,5 @@ conFusion/.tmp/
 conFusion/node_modules/
 conFusion/dist/
 conFusion/bower_components
+
+json-server/
