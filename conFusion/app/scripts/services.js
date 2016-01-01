@@ -21,10 +21,14 @@ angular.module('confusionApp')
             return $resource(baseURL+"dishes/:id",null,  {'update':{method:'PUT' }});
         };
 
+        this.getPromotions = function(){
+            return $resource(baseURL+"promotions/:id",null,  {'update':{method:'PUT' }});
+        };
+
         this.getPromotion = function(index) {
           return promotions[index];
         };
-                        
+
     }])
 
         .factory('corporateFactory', function() {
